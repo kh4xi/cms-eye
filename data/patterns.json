@@ -1,0 +1,272 @@
+{
+    "WordPress": {
+        "meta": "WordPress",
+        "headers": "X-Generator: WordPress",
+        "paths": ["/wp-login.php", "/wp-content/", "/wp-json/"],
+        "scripts": ["wp-includes/js/"]
+    },
+    "Joomla": {
+        "meta": "Joomla! - Open Source Content Management",
+        "headers": "X-Generator: Joomla",
+        "paths": ["/administrator/", "/index.php?option=com_","/index.php/administrator/","/templates/"],
+        "scripts": ["media/system/js/"]
+    },
+    "Drupal": {
+        "meta": "Drupal",
+        "headers": "X-Generator: Drupal",
+        "paths": ["/user/login", "/node/", "/taxonomy/"],
+        "scripts": ["drupal.js"]
+    },
+    "Magento": {
+        "meta": "Magento",
+        "headers": "X-Generator: Magento",
+        "paths": ["/admin/", "/checkout/", "/catalog/"],
+        "scripts": ["/skin/js/"]
+    },
+    "Shopify": {
+        "meta": "Shopify",
+        "headers": "X-Generator: Shopify",
+        "paths": ["/admin/", "/collections/", "/products/"],
+        "scripts": ["shopify.js"]
+    },
+    "Wix": {
+        "meta": "Wix",
+        "headers": "X-Generator: Wix",
+        "paths": ["/login", "/site/"],
+        "scripts": ["wix.js"]
+    },
+    "Squarespace": {
+        "meta": "Squarespace",
+        "headers": "X-Generator: Squarespace",
+        "paths": ["/config/", "/content/"],
+        "scripts": ["squarespace.js"]
+    },
+    "TYPO3": {
+        "meta": "TYPO3",
+        "headers": "X-Generator: TYPO3",
+        "paths": ["/typo3/", "/uploads/"],
+        "scripts": ["typo3.js"]
+    },
+    "Ghost": {
+        "meta": "Ghost",
+        "headers": "X-Generator: Ghost",
+        "paths": ["/ghost/", "/content/themes/"],
+        "scripts": ["ghost.js"]
+    },
+    "PrestaShop": {
+        "meta": "PrestaShop",
+        "headers": "X-Generator: PrestaShop",
+        "paths": ["/admin/", "/product/", "/category/"],
+        "scripts": ["prestashop.js"]
+    },
+    "Concrete5": {
+        "meta": "Concrete5",
+        "headers": "X-Generator: Concrete5",
+        "paths": ["/login/", "/dashboard/"],
+        "scripts": ["concrete5.js"]
+    },
+    "ExpressionEngine": {
+        "meta": "ExpressionEngine",
+        "headers": "X-Generator: ExpressionEngine",
+        "paths": ["/admin.php", "/index.php?ACT="],
+        "scripts": ["ee.js"]
+    },
+    "Craft CMS": {
+        "meta": "Craft CMS",
+        "headers": "X-Generator: Craft CMS",
+        "paths": ["/admin/", "/entries/"],
+        "scripts": ["craft.js"]
+    },
+    "Movable Type": {
+        "meta": "Movable Type",
+        "headers": "X-Generator: Movable Type",
+        "paths": ["/mt/", "/cgi-bin/mt/"],
+        "scripts": ["mt.js"]
+    },
+    "HubSpot CMS": {
+        "meta": "HubSpot",
+        "headers": "X-Generator: HubSpot",
+        "paths": ["/login/", "/content/"],
+        "scripts": ["hubspot.js"]
+    },
+    "Webflow": {
+        "meta": "Webflow",
+        "headers": "X-Generator: Webflow",
+        "paths": ["/u/", "/projects/"],
+        "scripts": ["webflow.js"]
+    },
+    "SilverStripe": {
+        "meta": "SilverStripe",
+        "headers": "X-Generator: SilverStripe",
+        "paths": ["/admin/", "/site/"],
+        "scripts": ["silverstripe.js"]
+    },
+    "Umbraco": {
+        "meta": "Umbraco CMS",
+        "headers": "X-Generator: Umbraco",
+        "paths": ["/umbraco/", "/media/"],
+        "scripts": ["umbraco.js"]
+    },
+    "ModX": {
+        "meta": "MODX Revolution",
+        "headers": "X-Generator: MODX",
+        "paths": ["/manager/", "/index.php?id="],
+        "scripts": ["modx.js"]
+    },
+    "Duda": {
+        "meta": "Duda",
+        "headers": "X-Generator: Duda",
+        "paths": ["/login/", "/page/"],
+        "scripts": ["duda.js"]
+    },
+    "Contentful": {
+        "meta": "Contentful",
+        "headers": "X-Generator: Contentful",
+        "paths": ["/content/", "/entries/"],
+        "scripts": ["contentful.js"]
+    },
+    "BigCommerce": {
+        "meta": "BigCommerce",
+        "headers": "X-Generator: BigCommerce",
+        "paths": ["/admin/", "/products/", "/categories/"],
+        "scripts": ["bigcommerce.js"]
+    },
+    "OpenCart": {
+        "meta": "OpenCart",
+        "headers": "X-Generator: OpenCart",
+        "paths": ["/admin/", "/index.php?route=", "/image/"],
+        "scripts": ["opencart.js"]
+    },
+    "DotNetNuke (DNN)": {
+        "meta": "DotNetNuke",
+        "headers": "X-Generator: DotNetNuke",
+        "paths": ["/login", "/dnn/login.aspx", "/tabid/"],
+        "scripts": ["dnn.js"]
+    },
+    "OctoberCMS": {
+        "meta": "OctoberCMS",
+        "headers": "X-Generator: OctoberCMS",
+        "paths": ["/backend/", "/backend/auth/signin"],
+        "scripts": ["october.js"]
+    },
+    "Plone": {
+        "meta": "Plone",
+        "headers": "X-Generator: Plone",
+        "paths": ["/login_form", "/@@"],
+        "scripts": ["plone.js"]
+    },
+    "Sitecore": {
+        "meta": "Sitecore",
+        "headers": "X-Generator: Sitecore",
+        "paths": ["/sitecore/login", "/sitecore/admin/"],
+        "scripts": ["sitecore.js"]
+    },
+    "Kentico": {
+        "meta": "Kentico",
+        "headers": "X-Generator: Kentico",
+        "paths": ["/admin/cmsadministration.aspx", "/cmsdesk/"],
+        "scripts": ["kentico.js"]
+    },
+    "Grav": {
+        "meta": "Grav CMS",
+        "headers": "X-Generator: Grav CMS",
+        "paths": ["/admin/", "/admin/dashboard"],
+        "scripts": ["grav.js"]
+    },
+    "Subrion CMS": {
+        "meta": "Subrion CMS",
+        "headers": "X-Generator: Subrion CMS",
+        "paths": ["/panel/", "/panel/auth/"],
+        "scripts": ["subrion.js"]
+    },
+    "Contao": {
+        "meta": "Contao",
+        "headers": "X-Generator: Contao",
+        "paths": ["/contao/login", "/contao/main.php"],
+        "scripts": ["contao.js"]
+    },
+    "Zenario": {
+        "meta": "Zenario",
+        "headers": "X-Generator: Zenario",
+        "paths": ["/zenario/admin/", "/zenario/admin/welcome.php"],
+        "scripts": ["zenario.js"]
+    },
+    "e107": {
+        "meta": "e107",
+        "headers": "X-Generator: e107",
+        "paths": ["/e107_admin/", "/e107_plugins/forum/forum_viewtopic.php"],
+        "scripts": ["e107.js"]
+    },
+    "Bolt CMS": {
+        "meta": "Bolt CMS",
+        "headers": "X-Generator: Bolt CMS",
+        "paths": ["/bolt/login", "/bolt/dashboard"],
+        "scripts": ["bolt.js"]
+    },
+    "Redaxscript": {
+        "meta": "Redaxscript",
+        "headers": "X-Generator: Redaxscript",
+        "paths": ["/login/", "/admin/"],
+        "scripts": ["redaxscript.js"]
+    },
+    "Textpattern": {
+        "meta": "Textpattern",
+        "headers": "X-Generator: Textpattern",
+        "paths": ["/textpattern/index.php"],
+        "scripts": ["textpattern.js"]
+    },
+    "Fork CMS": {
+        "meta": "Fork CMS",
+        "headers": "X-Generator: Fork CMS",
+        "paths": ["/private/", "/private/en/authentication"],
+        "scripts": ["forkcms.js"]
+    },
+    "Craft": {
+        "meta": "Craft",
+        "headers": "X-Generator: Craft",
+        "paths": ["/craft/", "/content/"],
+        "scripts": ["craft-main.js"]
+    },
+    "Gatsby": {
+        "meta": "Gatsby",
+        "headers": "X-Generator: Gatsby",
+        "paths": ["/gatsby/", "/static/"],
+        "scripts": ["gatsby.js"]
+    },
+    "Hugo": {
+        "meta": "Hugo",
+        "headers": "X-Generator: Hugo",
+        "paths": ["/themes/", "/content/"],
+        "scripts": ["hugo.js"]
+    },
+    "Weebly": {
+        "meta": "Weebly",
+        "headers": "X-Generator: Weebly",
+        "paths": ["/admin/", "/weebly/"],
+        "scripts": ["weebly.js"]
+    },
+    "Vivid CMS": {
+        "meta": "Vivid CMS",
+        "headers": "X-Generator: Vivid CMS",
+        "paths": ["/admin/", "/content/"],
+        "scripts": ["vivid.js"]
+    },
+    "Pimcore": {
+        "meta": "Pimcore",
+        "headers": "X-Generator: Pimcore",
+        "paths": ["/pimcore/", "/admin/"],
+        "scripts": ["pimcore.js"]
+    },
+    "Telerik Sitefinity": {
+        "meta": "Sitefinity",
+        "headers": "X-Generator: Telerik Sitefinity",
+        "paths": ["/Sitefinity/", "/Sitefinity/admin/"],
+        "scripts": ["sitefinity.js"]
+    },
+    "AlpineJS": {
+        "meta": "AlpineJS",
+        "headers": "X-Generator: AlpineJS",
+        "paths": ["/alpinejs/", "/content/"],
+        "scripts": ["alpine.js"]
+    }
+}
