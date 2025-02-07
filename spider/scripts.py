@@ -17,6 +17,5 @@ def check_scripts(url, cms_patterns):
                     found_scripts.append(script_src)
 
         return found_scripts
-
     except requests.exceptions.RequestException:
         return []

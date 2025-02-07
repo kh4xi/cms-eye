@@ -7,7 +7,7 @@ def check_meta(url):
         soup = BeautifulSoup(response.text, "html.parser")
         meta_tag = soup.find("meta", attrs={"name": "generator"})
         if meta_tag and "content" in meta_tag.attrs:
-            return meta_tag["content"],response.status_code
+            return meta_tag["content"]
     except requests.exceptions.RequestException:
         return None
     return None
