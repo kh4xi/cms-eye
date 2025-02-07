@@ -1,41 +1,26 @@
-import json
 import argparse
-from spider.meta import check_meta
-from spider.headers import check_headers
-from spider.paths import check_paths
+from utils.banner import banner
+from validate import stage_one, stage_two
+import os
 
-def load_patterns():
-    with open("data/patterns.json", "r") as file:
-        return json.load(file)
+if os.name == 'nt':
+    os.system('cls')
+elif os.name == 'posix':
+    os.system('clear')
 
-def detect_cms(url):
-    cms_patterns = load_patterns()
+print(banner())
+parser = argparse.ArgumentParser(description="Stage selection based on command line argument")
+parser.add_argument('--domain', '-d', help="Domain input for single search", type=str)
+parser.add_argument('--full', '-f', help="Full subdomain search", type=str)
 
+args = parser.parse_args()
 
-    meta_info = check_meta(url)
-    if meta_info:
-        for cms, details in cms_patterns.items():
-            if details["meta"].lower() in meta_info.lower():
-                return f"CMS detected: {cms} (Meta Tag)"
+if args.domain:
+    stage_one(args.domain)
 
-    header_info = check_headers(url)
-    if header_info:
-        for cms, details in cms_patterns.items():
-            if details["headers"].lower() in header_info.lower():
-                return f"CMS detected: {cms} (Header)"
-
-
-    for cms, details in cms_patterns.items():
-        found_paths = check_paths(url, details)
-        if found_paths:
-            return f"CMS detected: {cms} (Paths: {', '.join(found_paths)})"
-
-    return "CMS could not be detected"
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="CMS Finder Tool")
-    parser.add_argument("url", help="Hedef URL")
-    args = parser.parse_args()
-
-    result = detect_cms(args.url)
-    print(result)
+elif args.full:
+    stage_two(args.full)
+else:
+    print("No valid argument provided. Please use --domain or --full.\n"
+          "--domain or -d is for single domain pattern search\n"
+          "--full or -f is for full subdomain pattern search")
